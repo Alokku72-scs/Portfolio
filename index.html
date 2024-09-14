@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alok's Portfolio</title>
+    <link rel="icon" href="./Images/aa.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Open+Sans:wght@400;600&display=swap">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "Phy0lS6_2c9SSS-2T",
+            });
+        })();
+    </script>
+    <script src="index.js"></script>
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <div class="container">
+            <div class="navbar">
+                <div class="logo-container">
+                    <img src="./Images/letter-a.png" class="logo">
+                    <div class="logo-text">lok Kumar Anand</div>
+                </div>
+                <div class="nav-items">
+                    <div> <a href="#projects">Projects</a></div>
+                    <div> <a href="#skills">Skills</a></div>
+                    <div> <a href="#contactme">Contact Me</a></div>
+                    <div><a href="https://leetcode.com/u/detector_alok/" target="_blank">LeetCode Profile</a></div>
+                    <div><a href="https://www.geeksforgeeks.org/user/alokanajsk0/" target="_blank">GFG Profile</a></div>
+                </div>
+            </div>
+            <div class="horizontal-line"></div>
+        </div>
+
+        <div class="hero-section">
+
+            <div class="faded-text">Alok Kumar Anand</div>
+
+            <div class="hero-section-left">
+                <div class="hero-section-heading">Hi ! I'm Alok Kumar Anand</div>
+                <div class="hero-section-sub-heading">
+                    I am a <span class="role"></span>
+                </div>
+                <div class="hero-section-description">
+
+                    "I am a software enthusiast currently pursuing a Master of Computer Applications (MCA)
+                    at <ins><b>Jawaharlal Nehru University</b></ins>. Welcome to my portfolio website, where you can
+                    explore
+                    my journey in software development, projects, and the skills I've gained as I continue
+                    to learn and grow in the field."
+
+                </div>
+                <!-- <div class="btn-pink" id="btn">Hire Me</div> -->
+                <section id="resume" class="resume-section">
+                    <h2>My Resume</h2>
+                    <p>You can download my resume by clicking the button below:</p></br>
+                    <a href="https://drive.google.com/file/d/1DEVxtDLvo_oaPa-3EDJZUMlJ6h64z-iw/view?usp=sharing"
+                        target="_blank">
+                        <div class="btn-pink" id="btn">Download Resume</div>
+                    </a>
+                </section>
+
+            </div>
+
+            <div class="hero-section-right">
+                <div class="absolute icons icon-dots">
+                    <img src="./userAsset/dots.png" alt="" />
+                </div>
+                <div class="absolute icons icon-cube">
+                    <img src="./userAsset/cube.png" alt="" />
+                </div>
+                <div class="absolute icons icon-circle">
+                    <img src="./userAsset/circle.png" alt="" />
+                </div>
+                <div class="absolute icons icon-zigzags">
+                    <img src="./userAsset/zigzags.png" alt="" />
+                </div>
+                <div class="absolute icons icon-plus">
+                    <img src="./userAsset/plus.png" alt="" />
+                </div>
+                <div class="user-image">
+                    <img src="userAsset/alok.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div id="projects" class="project-section">
+            <h2 class="page-header">Projects</h2>
+            <div class="project-container">
+                <div class="project-card" id="project1">
+                    <div class="project-number project-number-right">01</div>
+                    <div class="project-content project-content-left">
+                        <div class="project-skills-container">
+                            <img class="project-skills" src="./Images/stack/c++.png" alt="">
+                            <img class="project-skills" src="./Images/stack/root.png" alt="">
+                        </div>
+                        <h2 class="project-heading">TrieAssist</h2>
+                        <p class="project-subHeading">This project utilizes the Trie data structure, implemented using C++ Standard 
+                            Template Library (STL) for efficient word management. The development process involved creating a basic 
+                            Trie structure from scratch and then integrating it into the system. 
+                        </p>
+
+                        <div class="more-details hidden read-more1">
+                            <p><b>Spell Checking:</b>  Accurate spell checking by comparing input words against the Trie’s stored words.</br>
+                                <b>Word Suggestion:</b>  Efficient word suggestions based on prefix matching and proximity to the input word.<br>
+                                Using: C++, Template-Based Design, Data Structures
+                            </p>
+                                
+                        </div>
+
+
+                        <div class="btn-grp">
+                            <button class="btn-pink btn-project" onclick="toggleDetails(this)">Read More</button>
+                            <a href="https://github.com/Alokku72-scs/Trie-based-Spell-Checker-and-Word-Suggestion-Tool">
+                                <i class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="#" class="non-clickable">
+                                <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" id="project2">
+                    <div class="project-number project-number-left">02</div>
+                    <div class="project-content project-content-right">
+                        <div class="project-skills-container project-content-right">
+                            <img class="project-skills" src="./Images/stack/HTML.png" alt="">
+                            <img class="project-skills" src="./Images/stack/CSS.png" alt="">
+                            <img class="project-skills" src="./Images/stack/Javascript.svg" alt="">
+                        </div>
+                        <h2 class="project-heading">Weather Report App</h2>
+                        <p class="project-subHeading">This project is a dynamic Weather Report App built using HTML,
+                            CSS, and JavaScript.
+                        </p>
+
+                        <div class="more-details hidden">
+                            <p><b>Access Local Weather:</b> By granting location access, users can view real-time
+                                weather conditions for their current location.<br>
+                                <b>Search Weather by City:</b>Users can search for weather data of any city by entering
+                                the city name.<br>
+                                <b>Weather Details:</b> Displays weather parameters like temperature, wind speed,
+                                humidity, and cloudiness, along with descriptive icons for better visualization.
+                            </p>
+                        </div>
+                        <div class="btn-grp">
+                            <button class="btn-pink btn-project" onclick="toggleDetails(this)">Read More</button>
+                            <a href="https://github.com/Alokku72-scs/Weather-App">
+                                <i class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="#" class="non-clickable">
+                                <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" id="project3">
+                    <div class="project-number project-number-right">03</div>
+                    <div class="project-content project-content-left">
+                        <div class="project-skills-container">
+                            <img class="project-skills" src="./Images/stack/HTML.png" alt="">
+                            <img class="project-skills" src="./Images/stack/CSS.png" alt="">
+                            <img class="project-skills" src="./Images/stack/Javascript.svg" alt="">
+                            <img class="project-skills" src="./Images/stack/Tailwind.png" alt="">
+                            <img class="project-skills" src="./Images/stack/NodeJs.svg" alt="">
+                            <img class="project-skills" src="./Images/stack/Redux.svg" alt="">
+                        </div>
+                        <h2 class="project-heading">Random GIF Generator</h2>
+                        <div class="project-subHeading">This project is a Random GIF Generator built using React that
+                            allows users to generate random GIFs with or without a specified tag.
+                        </div>
+
+                        <div class="more-details hidden">
+                            <p><b>Random GIFs:</b>Displays a random GIF each time the user clicks the "Generate"
+                                button.<br>
+                                <b>Tag-based GIFs:</b>Users can input a tag to generate GIFs related to specific themes,
+                                such as "cars," and view a GIF corresponding to that tag.<br>
+                                <b>API Integration:</b> The app utilizes the Giphy API to fetch GIFs based on user
+                                interaction.<br>
+                                <b>Responsive Design:</b> The app features a clean UI with responsive elements, ensuring
+                                a seamless experience across devices.
+                            </p>
+                        </div>
+
+                        <div class="btn-grp">
+                            <button class="btn-pink btn-project" onclick="toggleDetails(this)">Read More</button>
+                            <a href="https://github.com/Alokku72-scs/RandomGifs">
+                                <i class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="#" class="non-clickable">
+                                <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" id="project4">
+                    <div class="project-number project-number-left">04</div>
+                    <div class="project-content project-content-right">
+                        <div class="project-skills-container project-content-right">
+                            <img class="project-skills" src="./Images/stack/HTML.png" alt="">
+                            <img class="project-skills" src="./Images/stack/CSS.png" alt="">
+                            <img class="project-skills" src="./Images/stack/Javascript.svg" alt="">
+                            <img class="project-skills" src="Images/stack/React.png" alt="">
+                            <img class="project-skills" src="./Images/stack/Express.png" alt="">
+                            <img class="project-skills" src="./Images/stack/Tailwind.png" alt="">
+                            <img class="project-skills" src="./Images/stack/NodeJs.svg" alt="">
+                            <img class="project-skills" src="./Images/stack/MongoDB.svg" alt="">
+                            <img class="project-skills" src="./Images/stack/Redux.svg" alt="">
+                        </div>
+                        <h2 class="project-heading">QuizMastery</h2>
+                        <p class="project-subHeading">ExamMastery is an online exam platform <br>designed to streamline
+                            the process of creating, managing, and taking exams.
+                        </p>
+
+                        <div class="more-details hidden">
+                            <p><b>User Authentication:</b> Secure login and signup functionality to manage user
+                                sessions.<br>
+                                <b>Dashboard: Provides users </b>with access to their exam progress, results, and
+                                options to start new exams.<br>
+                                <b>Question Navigation:</b> Users can move through questions one at a time, ensuring
+                                focus on individual questions.<br>
+                            </p>
+                        </div>
+
+                        <div class="btn-grp">
+                            <button class="btn-pink btn-project" onclick="toggleDetails(this)">Read More</button>
+                            <a href="https://github.com/Alokku72-scs/ExamMaster">
+                                <i class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="#" class="non-clickable">
+                                <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+
+                        <div class="more-details hidden ">
+                            <p>In this project, I implemented a Trie data structure with support for various operations
+                                like insertion, deletion, and search. This implementation uses template classes, making
+                                it flexible for different data types. The project showcases efficient algorithms for
+                                word searches and is scalable for large datasets.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="skills" class="container skills-container">
+        <div class="skills-fade-text">Skills</div>
+        <div class="skills-container-left">
+            <h2 class="skill-heading">
+                <span class="caps">M</span>e and
+                <br />
+                MyTech Stack
+            </h2>
+            <div class="skill-subHeading">
+                <p> "I am a Master of Computer Applications (MCA) student with a strong foundation in Data Structures
+                    and Algorithms (DSA) particulary in C++
+                    . I am Skilled in multiple programming languages, including C, Java, Pyhon, and JavaScript.
+                    I am adept at web development using the MERN stack, which includes MongoDB for efficient database
+                    management,
+                    Express.js for building robust server-side applications, React.js for creating dynamic and
+                    responsive user interfaces,
+                    and Node.js for server-side scripting and handling asynchronous operations.
+
+                </p>
+                <p>
+                    My solid understanding of software engineering principles, combined with a passion for coding and
+                    problem-solving, drives me to continually enhance my skills and tackle new challenges in the
+                    ever-evolving tech landscape."
+
+                </p>
+            </div>
+        </div>
+        <div class="skills-container-right">
+            <img src="./images/userAsset/blob vector.png" class="blob-style" alt="" />
+            <img src="./Images/stack/HTML.png" alt="" class="skills-logo">
+            <img src="./Images/stack/CSS.png" alt="" class="skills-logo">
+            <img src="./Images/stack/Javascript.svg" alt="" class="skills-logo">
+            <img src="./Images/stack/React.png" alt="" class="skills-logo">
+            <img src="./Images/stack/Express.png" alt="" class="skills-logo">
+            <img src="./Images/stack/Tailwind.png" alt="" class="skills-logo">
+            <img src="./Images/stack/Git.svg" alt="" class="skills-logo">
+            <img src="./Images/stack/Github.svg" alt="" class="skills-logo">
+            <img src="./Images/stack/NodeJs.svg" alt="" class="skills-logo">
+            <img src="./Images/stack/MongoDB.svg" alt="" class="skills-logo">
+            <img src="./Images/stack/Redux.svg" alt="" class="skills-logo">
+        </div>
+    </div>
+
+    <div id="contactme" class="contact-form-container">
+        <div class="container">
+            <h1 class="contact-heading">Contect Me </h2>
+                <h3 class="contact-sub-heading">Questions, Thoughts, Or Just Want To Say Hello?</h3>
+
+                <div class="contact-form-container" id="contact-me">
+                    <form class="form" onsubmit="sendMail(event)">
+                        <div class="formfield-container">
+                            <input class="form-field" type="text" name="name" id="name" placeholder="Enter your name"
+                                required>
+                            <input class="form-field" type="email" name="email" id="email"
+                                placeholder="Enter Your Email" required>
+                            <input class="form-field" type="text" name="subject" id="subject"
+                                placeholder="Enter your subject address">
+                            <textarea name="message" class=" form-field form-textarea" id="textarea" cols="30"
+                                rows=" 10" placeholder="Here Drop your message " required></textarea>
+                        </div>
+                        <div>
+                            <button class="btn-pink" id="submit-btn">
+                                Send Message <i class="submit-icon fa-solid fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-faded-text">
+                    Alok Kumar Anand
+                </div>
+                <div class="link-wrapper">
+                    <div>
+                        <a href="#projects">Projects</a>
+                    </div>
+                    <div>
+                        <a href="#skills">Skills</a>
+                    </div>
+                    <div>
+                        <a href="#contactme">Contact Me</a>
+                    </div>
+                </div>
+                <div class="icon-wrapper">
+                    <a href="https://www.linkedin.com/in/alok-kumar-anand-7b529a286/" alt="_blank">
+                        <i class="fa-brands fa-linkedin icon"></i>
+                    </a>
+                    <a href="https://github.com/Alokku72-scs">
+                        <i class="fa-brands fa-github icon"></i>
+                    </a>
+                    <a href="https://x.com/alokanand7545">
+                        <i class="fa-brands fa-twitter icon"></i>
+                    </a>
+                    <a href="https://www.instagram.com/detector_alok?igsh=bmJwMXAyb3hiaHR6">
+                        <i class="fa-brands fa-instagram icon"></i>
+                    </a>
+                </div>
+                <div class="email">
+                    <a href="mailto:alokanand7545@gmail.com">
+                        <img src="./Images/stack/gmail.png" class=" img-fit" />
+                        <label class="icon">Email:alokanand7545@gmail.com</label>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+
+    <script>
+        var typeData = new Typed(".role", {
+            strings: [
+                "Coder",
+                "Full Stack Developer",
+                "Web Developer",
+                "Backend Developer",
+            ],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 1000,
+        });
+    </script>
+</body>
+</html>
