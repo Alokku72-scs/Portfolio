@@ -12,6 +12,10 @@ function toggleDetails(button) {
 }
 
 
+
+
+
+
 function sendMail(event) {
     event.preventDefault(); 
 
