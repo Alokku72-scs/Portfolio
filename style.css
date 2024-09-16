@@ -477,21 +477,21 @@ a {
 }
 
 #project1 {
-    background-image: url(./images/projects/spell1.jpg);
+    background-image: url(./Images/projects/spell.jpg);
 }
 
 #project2 {
     margin-left: 120px;
-    background-image: url(./images/projects/weather.png);
+    background-image: url(./Images/projects/weather.png);
 }
 
 #project3 {
-    background-image: url(./images/projects/Gif.png);
+    background-image: url(./Images/projects/Gif.png);
 }
 
 #project4 {
     margin-left: 120px;
-    background-image: url(./images/projects/OnlineExam.jpg);
+    background-image: url(./Images/projects/OnlineExam.jpg);
 }
 
 
