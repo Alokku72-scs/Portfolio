@@ -33,8 +33,15 @@ body {
     justify-content: space-between;
     align-items: center;
     padding-top: 0.5rem;
+    background-color: #fdfdfe;
+    border-bottom: 2px solid #ccc;
+    /* background: linear-gradient(90deg, #bf4895, #3441b0); */
+}
 
-    background: linear-gradient(90deg, #bf4895, #3441b0);
+.horixontal-line{
+    background-color: aquamarine;
+    width:2px;
+    height: 1px;
 }
 
 .logo {
